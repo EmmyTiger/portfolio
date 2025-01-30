@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing my work as a Full Stack Developer, including projects, certificates, and contact information.">
+    <meta name="keywords" content="portfolio, full stack developer, web development, projects, certificates">
+    <meta name="author" content="Emmy">
+    <title>Emmy - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">UWINGABIRE EMMANUEL</div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="profile-image">
+                <img src="image/Emmanuel.jpg" alt="Emmy">
+            </div>
+            <div class="about-text">
+                <h1>Emmanuel</h1>
+                <h2>Full Stack Developer</h2>
+                <p>I am Uwingabire Emmanuel, a Full Stack Developer with expertise in web development, cybersecurity, and cloud computing. I build secure, scalable applications using HTML, CSS, JavaScript, PHP, and MySQL. Passionate about AI-driven solutions and problem-solving, I strive to create impactful digital experiences that enhance efficiency and security in technology..</p>
+                <button onclick="viewCertificate('certificates/cv.pdf')">View My Cv</button>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Programming</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Microsoft Office</h3>
+                <ul>
+                    <li>MS Word</li>
+                    <li>MS Excel</li>
+                    <li>MS Access</li>
+                    <li>MS PowerPoint</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Web Development</h3>
+                <ul>
+                    <li>Frontend Development</li>
+                    <li>Backend Development</li>
+                    <li>Responsive Design</li>
+                    <li>Internet Navigation</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Other Skills</h3>
+                <ul>
+                    <li>Cybersecurity Basics</li>
+                    <li>Networking Fundamentals</li>
+                    <li>Problem Solving</li>
+                    <li>Project Management</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500" alt="Telemedicine Platform">
+                <div class="project-content">
+                    <h3>Telemedicine Platform</h3>
+                    <p>A comprehensive telemedicine solution that connects patients with healthcare providers remotely. Features include video consultations, appointment scheduling, medical history management, and secure messaging. Built with HTML, CSS, JavaScript frontend and PHP backend.</p>
+                    <button onclick="viewProject('#')">View Project</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=500" alt="E-commerce Website">
+                <div class="project-content">
+                    <h3>E-commerce Website</h3>
+                    <p>A full-featured online shopping platform with product catalog, shopping cart, secure checkout, and order management. Implemented user authentication, product search, and payment integration using HTML, CSS, JavaScript, and PHP.</p>
+                    <button onclick="viewProject('#')">View Project</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=500" alt="Online Wedding Material Booking">
+                <div class="project-content">
+                    <h3>Online Wedding Material Booking</h3>
+                    <p>A specialized booking platform for wedding materials and services. Features include inventory management, booking calendar, payment processing, and vendor management. Developed using HTML, CSS, JavaScript frontend with PHP backend.</p>
+                    <button onclick="viewProject('#')">View Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <h2>Certificates</h2>
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500" alt="ICDL Certificate">
+                <div class="certificate-content">
+                    <h3>International Computer Driving License (ICDL)</h3>
+                    <p>Comprehensive certification demonstrating proficiency in essential computer skills and digital literacy.</p>
+                    <button onclick="viewCertificate('certificates/ICDL.pdf')">View Certificate</button>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500" alt="Sololearn Certificates">
+                <div class="certificate-content">
+                    <h3>HTML & Java Certifications - Sololearn</h3>
+                    <p>Completed comprehensive courses in HTML and Java programming, demonstrating proficiency in web development and programming fundamentals.</p>
+                    <button onclick="viewCertificate('certificates/sololearn.pdf')">View Certificate</button>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500" alt="Cisco Certificates">
+                <div class="certificate-content">
+                    <h3>Cisco Networking Academy Certifications</h3>
+                    <p>Completed 'Introduction to Cybersecurity' courses, gaining essential networking and security knowledge.</p>
+                    <button onclick="viewCertificate('certificates/Introduction to Cybersecurity.pdf')">View Certificate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <a href="mailto:ngabiye20@gmail.com"><i class="fas fa-envelope"></i> ngabiye20@gmail.com.com</a>
+                <a href="https://wa.me/0780681173"><i class="fab fa-whatsapp"></i> +250780681173</a>
+                <a href="https://github.com/EmmyTiger"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/uwingabire-emmanuel-7b6577206/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://www.instagram.com/ngabiye20"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+            <form id="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="question">Question</label>
+                    <textarea id="question" name="question" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Uwingabire Emmanuel 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
